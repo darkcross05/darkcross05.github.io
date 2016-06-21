@@ -67,7 +67,6 @@ function bubble(x,y){
 			}else{
 				this.bandera = true;
 			}
-			this.bandera = true;
 		}else if (this.y < 0 || this.y > height) {
 			this.speedY *= -1;
 			if (this.bandera == true) {
@@ -75,7 +74,6 @@ function bubble(x,y){
 			}else{
 				this.bandera = true;
 			}
-			
 		}
 		this.x += this.speedX;
 		this.y += this.speedY;	
